@@ -1,5 +1,5 @@
-const WebCrawler = require('./crawler');
-// import WebCrawler from './crawler.js'; 
+// const WebCrawler = require('./crawler');
+import WebCrawler from './crawler.js'; 
 
 const startCrawl = async () => {
   const baseUrl = 'https://medium.com'; // Change this to the website you want to crawl
